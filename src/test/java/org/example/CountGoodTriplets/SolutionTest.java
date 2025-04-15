@@ -12,7 +12,6 @@ public class SolutionTest {
         int a = 7;
         int b = 2;
         int c = 3;
-
         int sol = solution.countGoodTriplets(arr,a,b,c);
         assertEquals(4,sol);
     }
